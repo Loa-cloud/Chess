@@ -32,6 +32,6 @@ jobs:
                 echo "file_name=TestReport.md" >> $GITHUB_ENV              
         # run tests with built project
       - name: Test PR      
-        run: dotnet test 
+        run: dotnet test --no-restore --no-build --configuration
 
 
