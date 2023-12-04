@@ -2,7 +2,7 @@ name: Demo Workflow
 on: workflow_dispatch
 jobs:
   print:
-    runs-on: windows-latest
+    runs-on: windows-2022
     steps:
      # - uses: actions/checkout@v3
      # - run: dotnet test
