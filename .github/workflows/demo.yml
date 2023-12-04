@@ -55,6 +55,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         path: ${{env.file_name}}
-        with:
-          path: ${{env.file_name}}
+
 
